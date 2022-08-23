@@ -1,0 +1,68 @@
+.gallery_conteiner {
+    width: 1000px;
+    height: 450px;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin: 100px auto;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+    -webkit-box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+    -moz-box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+  }
+
+  .gallery_conteiner ul {
+    width: 2000px;
+    border-radius: 20px;
+  }
+
+  .gallery_conteiner li {
+    position: relative;
+    display: block;
+    width: 160px;
+    float: left;
+    border-left: 1px solid #888;
+    box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+  }
+
+  .gallery_conteiner ul:hover li {
+    width: 40px;
+  }
+
+  .gallery_conteiner ul li:hover {
+    width: 1040px;
+  }
+
+  .gallery_conteiner li img {
+    display: block;
+  }
+
+  .image_title {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial,
+      sans-serif;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 1040px;
+    margin-left: -40px;
+  }
+
+  .image_title a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 20px;
+  }
+
+  .item {
+    height: 450px;
+    width: 1000px;
+    object-fit: fill;
+    margin-left: -40px;
+  }
