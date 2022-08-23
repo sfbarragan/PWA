@@ -12,11 +12,11 @@ const $container = document.querySelector(".img"),
     },
     {
       title: "Laptop Gamer",
-      img: "../img/y530teaser.jpg",
+      img: "./img/y530teaser.jpg",
     },
     {
       title: "Teclado Logitec LGPro",
-      img: "../img/tecladoLGPro.png",
+      img: "./img/tecladoLGPro.png",
     },
   ];
 

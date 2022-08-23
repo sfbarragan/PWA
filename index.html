@@ -22,9 +22,9 @@
     <nav>
         <ul class="menu">
           <li><a href="index.html">Home</a></li>
-          <li><a href="catalogo.html">Catálogo</a></li>
-          <li><a href="nosotros.html">Nosotros</a></li>
-          <li><a href="login.html">LOGIN</a></li>
+          <li><a href="#">Catálogo</a></li>
+          <li><a href="#">Nosotros</a></li>
+          <li><a href="#">LOGIN</a></li>
         </ul>
       </nav>
       <section>
@@ -107,13 +107,53 @@
         <p>Ofrecemos los productos más recientes y de mejor calidad</p>
       </div>
 
-      <div class="card">
-        <div class="card-image"></div>
-          <div class="card-description">
-            <p class="text-title"> Card Title</p>
-            <p class="text-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+      <div class="cards">
+        <div class="card">
+          <div class="card-image"> 
+            <img src="img/asus-zenbook.webp" class="img-card">
           </div>
-        </div>
+            <div class="card-description">
+              <p class="text-title"> Asus Zenbook</p>
+              <p class="text-body">
+                Pantalla led 14 pulgadas <br>
+                Precesador i7-1165G7 <br>
+                32 GB Ram <br>
+                1TB SSD <br>
+                1.099 $ <br>
+              </p>
+            </div>
+          </div>
+  
+          <div class="card">
+            <div class="card-image"> 
+              <img src="img/alienware m15R3.jpg" class="img-card">
+            </div>
+              <div class="card-description">
+                <p class="text-title"> Laptop Alienware M15R3</p>
+                <p class="text-body">
+                  Pantalla led 16 pulgadas <br>
+                  Precesador i9-12990k <br>
+                  32 GB Ram <br>
+                  1TB SSD <br>
+                  2.199 $ <br>
+                </p>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-image"> 
+                <img src="img/3090GT.png" class="img-card">
+              </div>
+                <div class="card-description">
+                  <p class="text-title"> NVIDIA RTX 3090</p>
+                  <p class="text-body">
+                    12 GB VRAM DDR6 <br>
+                    1.199 $ <br>
+                  </p>
+                </div>
+              </div>
+      </div>
+      
 
       <div class="btnContact" align="center">Productos</div>
 
@@ -124,7 +164,7 @@
             background-color: var(--dark-color);
             color: white;
             text-align: center;
-            margin-left: 200px;
+            margin-left: 15%;
             
           }
           .img-cont {
@@ -142,10 +182,10 @@
           }
         </style>
         <template id="template-img">
-          <figure class="fig">
-            <img class="img-cont">
-            <figcaption class="img-tittle"></figcaption>
-          </figure>
+            <figure class="fig">
+              <img class="img-cont">
+              <figcaption class="img-tittle"></figcaption>
+            </figure>
         </template>
       </section>
       <script src="js/contenedor.js"></script>
