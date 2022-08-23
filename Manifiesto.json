@@ -9,7 +9,7 @@
     "start_url": "./",
     "icons": [
         {
-            "src": "./imagen.png",
+            "src": "./Logo Orión.png",
             "type": "image/png",
             "sizes": "512x512"
         }
